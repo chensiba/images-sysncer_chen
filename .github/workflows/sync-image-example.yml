@@ -27,5 +27,5 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy  docker://docker.io/sweagent/swe-agent@sha256:ca1253c4e348f0f0c980c92e12a38f182babad61c722e963f1ce711001c33618 docker://registry.cn-hangzhou.aliyuncs.com/weiyigeek2/swe-agent:latest
+         skopeo copy  docker://docker.io/sweagent/swe-eval@sha256:5f695008f83a32a09b146a76b2072cc63363639d314c098395a57acfc1cc9677 docker://registry.cn-hangzhou.aliyuncs.com/weiyigeek2/swe-eval:latest
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
